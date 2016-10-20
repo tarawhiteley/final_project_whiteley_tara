@@ -1,13 +1,3 @@
-* {
-	margin:0;
-	padding:0;
-	border:0;
-}
-
-article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
-  display:block;
-}
-
 html {
     background-image: url("../img/vinylblue.jpg");
     background-color: black;
@@ -24,18 +14,18 @@ html {
 }
 
 @font-face {
-	font-family: "jack";
-	src: url("../fonts/cfjackstory-regular.ttf") format("truetype");
+    font-family: "jack";
+    src: url("../fonts/cfjackstory-regular.ttf") format("truetype");
 }
 
 @font-face {
-	font-family: "hello_casual";
-	src: url("../fonts/hello_casual.ttf") format("truetype");
+    font-family: "hello_casual";
+    src: url("../fonts/hello_casual.ttf") format("truetype");
 }
 
 @font-face {
-	font-family: "coffee";
-	src: url("../fonts/djb_coffee_shoppe_espresso.ttf") format("truetype");
+    font-family: "coffee";
+    src: url("../fonts/djb_coffee_shoppe_espresso.ttf") format("truetype");
 }
 
 h1,
@@ -44,14 +34,14 @@ h2 {
 }
 
 h1 {
-	font-family: "jack";
-	font-size: 2.8em;
-    padding-bottom: 20px
+    font-family: "jack";
+    font-size: 2.8em;
+    padding-bottom: 20px;
 }
 
 h2 {
-	font-family: "hello_casual";
-	font-size: 1.8em;
+    font-family: "hello_casual";
+    font-size: 1.8em;
     padding-bottom: 10px;
 }
 
@@ -63,19 +53,19 @@ h2 {
 }
 
 hr {
-    background-color: #fff;
+    background-color: #ffffff;
     border-top: 40px dashed #2b2727;
     margin: 60px 0;
 }
 
 p,
 li {
-	font-family: "coffee";
-	font-size: 1.4em;
+    font-family: "coffee";
+    font-size: 1.4em;
 }
 
 header img {
-	width: 50%;
+    width: 50%;
     text-align: center;
     margin: 20px;
 }
@@ -83,7 +73,7 @@ header img {
 header {
     width: 100%;
     text-align: center;
-    margin:auto;
+    margin: auto;
 }
 
 ul {
@@ -99,7 +89,7 @@ li {
 
 section {
     text-align: center;
-    size:1.8em;
+    font-size: 1.8em;
 }
 
 main {
@@ -142,7 +132,7 @@ main p {
 .subhead {
     font-family: "hello_casual";
     font-size: 2em;
-    font-weight:600;
+    font-weight: 600;
 }
 
 .body {
@@ -182,18 +172,18 @@ main p {
     .bigscreen img {
         width: 50%;
         text-align: center;
-        margin:auto;
+        margin: auto;
         margin: 20px;
     }
     .photos img {
-        width: calc(100% / 3 - 26px )
+        width: calc(100% / 3 - 26px);
     }
 }
 
 @media (min-width: 1000px) {
     .left {
         float: left;
-        width: 40%
+        width: 40%;
     }
     main {
         width: 50%;
