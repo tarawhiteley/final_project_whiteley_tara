@@ -77,7 +77,6 @@ li {
 header img {
 	width: 50%;
     text-align: center;
-    margin:auto;
     margin: 20px;
 }
 
@@ -158,6 +157,25 @@ main p {
 
 main p {
     font-size: 1em;
+}
+
+.bigscreen {
+    display: none;
+}
+
+@media (min-width: 700px) {
+    .smallscreen {
+        display: none;
+    }
+    .bigscreen {
+        display: inline;
+    }
+    .bigscreen img {
+        width: 50%;
+        text-align: center;
+        margin:auto;
+        margin: 20px;
+    }
 }
 
 @media (min-width: 1000px) {
