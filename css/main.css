@@ -39,20 +39,20 @@ html {
 }
 
 h1,
-h2,
-p {
+h2 {
     color: white;
 }
 
 h1 {
 	font-family: "jack";
-	font-size: 2.4em;
+	font-size: 2.8em;
     padding-bottom: 20px
 }
 
 h2 {
 	font-family: "hello_casual";
 	font-size: 1.8em;
+    padding-bottom: 10px;
 }
 
 .tagline {
@@ -68,13 +68,14 @@ hr {
     margin: 60px 0;
 }
 
-p {
+p,
+li {
 	font-family: "coffee";
 	font-size: 1.4em;
 }
 
 header img {
-	width: 40%;
+	width: 50%;
     text-align: center;
     margin:auto;
     margin: 20px;
@@ -87,13 +88,12 @@ header {
 }
 
 ul {
-    margin: 20px auto;
     text-align: center;
 }
 
 li {
     display: inline;
-    padding: 10px;
+    padding: 0 10px;
     color: white;
     font-size: 1.8em;
 }
@@ -107,7 +107,7 @@ main {
     background-color: #fbca38;
     opacity: 0.7;
     padding: 30px;
-    margin: 0 0 50px 10px;
+    margin: auto;
     max-width: 60%;
 }
 
@@ -117,12 +117,13 @@ main hr {
 }
 
 main h2,
-main p,
+p,
 .header,
 .subhead,
 .body,
 .link {
     color: black;
+    padding: 0;
 }
 
 main h2 {
@@ -130,23 +131,29 @@ main h2 {
     padding-bottom: 5px;
 }
 
+main p {
+    color: #9da5e4;
+}
+
 .header {
     font-family: "jack";
-    font-size: 1.6em;
+    font-size: 2.4em;
 }
 
 .subhead {
     font-family: "hello_casual";
-    font-size: 1.4em;
+    font-size: 2em;
+    font-weight:600;
 }
 
 .body {
-    font-family: "coffee";
     font-size: 1.2em;
+    line-height: normal;
 }
 
 .link {
     font-weight: bold;
+    font-style: italic;
 }
 
 main p {
@@ -156,8 +163,11 @@ main p {
 @media (min-width: 1000px) {
     .left {
         float: left;
+        width: 40%
     }
     main {
+        width: 50%;
         float: right;
+        margin: 0 10px 50px 10px;
     }
 }
