@@ -1,0 +1,163 @@
+* {
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display:block;
+}
+
+html {
+    background-image: url("../img/vinylblue.jpg");
+    background-color: black;
+    min-height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: auto;
+}
+
+#container {
+    max-width: 1250px;
+    margin: auto;
+}
+
+@font-face {
+	font-family: "jack";
+	src: url("../fonts/cfjackstory-regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "hello_casual";
+	src: url("../fonts/hello_casual.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "coffee";
+	src: url("../fonts/djb_coffee_shoppe_espresso.ttf") format("truetype");
+}
+
+h1,
+h2,
+p {
+    color: white;
+}
+
+h1 {
+	font-family: "jack";
+	font-size: 2.4em;
+    padding-bottom: 20px
+}
+
+h2 {
+	font-family: "hello_casual";
+	font-size: 1.8em;
+}
+
+.tagline {
+    font-family: "hello_casual";
+    font-size: 1.6rem;
+    color: white;
+    display: block;
+}
+
+hr {
+    background-color: #fff;
+    border-top: 40px dashed #2b2727;
+    margin: 60px 0;
+}
+
+p {
+	font-family: "coffee";
+	font-size: 1.4em;
+}
+
+header img {
+	width: 40%;
+    text-align: center;
+    margin:auto;
+    margin: 20px;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    margin:auto;
+}
+
+ul {
+    margin: 20px auto;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    color: white;
+    font-size: 1.8em;
+}
+
+section {
+    text-align: center;
+    size:1.8em;
+}
+
+main {
+    background-color: #fbca38;
+    opacity: 0.7;
+    padding: 30px;
+    margin: 0 0 50px 10px;
+    max-width: 60%;
+}
+
+main hr {
+    border-top: 10px dashed #2b2727;
+    margin: 10px 0;
+}
+
+main h2,
+main p,
+.header,
+.subhead,
+.body,
+.link {
+    color: black;
+}
+
+main h2 {
+    text-decoration: underline;
+    padding-bottom: 5px;
+}
+
+.header {
+    font-family: "jack";
+    font-size: 1.6em;
+}
+
+.subhead {
+    font-family: "hello_casual";
+    font-size: 1.4em;
+}
+
+.body {
+    font-family: "coffee";
+    font-size: 1.2em;
+}
+
+.link {
+    font-weight: bold;
+}
+
+main p {
+    font-size: 1em;
+}
+
+@media (min-width: 1000px) {
+    .left {
+        float: left;
+    }
+    main {
+        float: right;
+    }
+}
