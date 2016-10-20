@@ -163,6 +163,15 @@ main p {
     display: none;
 }
 
+.photos {
+    display: block;
+}
+
+.photos img {
+    width: 60%;
+    margin: 0;
+}
+
 @media (min-width: 700px) {
     .smallscreen {
         display: none;
@@ -175,6 +184,9 @@ main p {
         text-align: center;
         margin:auto;
         margin: 20px;
+    }
+    .photos img {
+        width: calc(100% / 3 - 26px )
     }
 }
 
